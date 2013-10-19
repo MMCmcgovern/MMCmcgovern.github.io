@@ -1,5 +1,5 @@
 body {
-    background:url(img/dimension_@2x.png); /* Pattern by Luuk van Baars, downloaded from subtlepatterns.com */
+    background: #ffffff;
     font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -7,18 +7,18 @@ body {
 
 header {
     padding:0.625em 5%;
-    font-family:"Roboto Condensed", Arial, Helvetica, sans-serif;
+    font-family:"Helvetica Neue", Helvetica, sans-serif;
     font-weight:400;
     color:#000000;
 }
 
 nav {
-    
+    background: #ffffff;
     padding:0.625em 5%;
 }
 
 article {
-    background:#e5e4e2;
+    background: #e5e4e2;
     padding:1.5em 5% 0.625em;
     color:#2b1b17;
     font-size:0.9em;
@@ -27,4 +27,44 @@ article {
 footer {
     padding:0.625em 5%;
     color:#1a99c4;
+}
+
+/* Heading Rules */
+
+header h1 {
+    margin:10px 0;
+    font-size:50px;
+    padding-bottom:5px;
+}
+
+article h1 {
+    font-family:"Helvetica Neue", Helvetica, sans-serif;
+    font-size:32px;
+    font-weight:400;
+    margin:0 0 20px;
+}
+
+article h2 {
+    font-family:"Helvetica Neue", Helvetica, sans-serif;
+    font-size:24px;
+    font-weight:400;
+    margin:0 0 20px;
+}
+
+/* Paragraph Rules */
+
+article p {
+    margin:16px 0;
+}
+
+/* List Rules */
+
+article ul {
+    margin:16px 0;
+}
+
+article li {
+    list-style-type:circle;
+    margin-left:24px;
+    margin-bottom:12px;
 }
