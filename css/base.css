@@ -75,8 +75,9 @@ article ul {
 
 article li {
     list-style-type:circle;
-    margin-left:24px;
-    margin-bottom:8px;
+    font-size:14px;
+    margin-left:8px;
+    margin-bottom:4px;
 }
 
 /* Link Rules */
