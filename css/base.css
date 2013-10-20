@@ -12,6 +12,7 @@ header {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight:400;
     color:#fff;
+    image-resolution:from-image;
 }
 
 nav {
